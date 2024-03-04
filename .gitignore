@@ -1,0 +1,9 @@
+# Ignorando toda la carpeta excepto lo necesario para el despliegue de la página
+
+*
+!.gitignore
+!/README.md
+!LICENSE.md
+!NEWS.md
+!docs/
+!docs/**
