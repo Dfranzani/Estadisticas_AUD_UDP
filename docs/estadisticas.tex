@@ -163,12 +163,12 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdftitle={Estadística I \& Estadística Descriptiva},
+  pdftitle={Estadísticas},
   pdfauthor={Daniel Franzani},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
-\title{Estadística I \& Estadística Descriptiva}
+\title{Estadísticas}
 \author{\href{https://dfranzani.github.io/website/principal/home.html}{Daniel Franzani}}
 \date{Actualizado al 04-03-2024}
 
@@ -199,7 +199,7 @@
 \chapter*{Presentación}\label{presentaciuxf3n}
 \addcontentsline{toc}{chapter}{Presentación}
 
-La asignatura Estadística I \& Estadística Descriptiva, es el primer curso estadístico de la carrera de Ingeniería Comercial e Ingeniería en Control de Gestión respectivamente. Estos son el primero de una serie de dos cursos introductorios de estadística, los cuales tienen un enfoque práctico con un fuerte énfasis en el estudio descriptivo de datos. Este primer documento, se concentra en gráficos descriptivos, medidas de resumen, funciones de probabilidad y distribuciones muestrales, haciendo uso del entorno de software R.
+La asignatura Estadísticas, es el único curso estadístico de la carrera de Auditoría. El curso tiene un enfoque práctico con un fuerte énfasis en el estudio descriptivo de datos. Este primer documento, se concentra en gráficos descriptivos, medidas de resumen, funciones de probabilidad y distribuciones muestrales, haciendo uso del entorno de software R.
 
 \href{https://dfranzani.github.io/Estadistica_II/}{Enlace al documento del segundo curso de Estadística: Estadística II \& Inferencia Estadística}.
 
@@ -376,7 +376,7 @@ Un ejemplo de los conceptos explicados es \textbf{la proporción de círculos ro
 
 \begin{figure}
 
-{\centering \includegraphics{est1+descriptiva_files/figure-latex/parametro1-1} 
+{\centering \includegraphics{estadisticas_files/figure-latex/parametro1-1} 
 
 }
 
@@ -408,7 +408,7 @@ Respecto a lo anterior:
 
 \begin{figure}
 
-{\centering \includegraphics{est1+descriptiva_files/figure-latex/parametro2-1} 
+{\centering \includegraphics{estadisticas_files/figure-latex/parametro2-1} 
 
 }
 
@@ -425,7 +425,7 @@ El concepto detrás de esto es la \textbf{variabilidad muestral}, el cual, indic
 
 \begin{figure}
 
-{\centering \includegraphics{est1+descriptiva_files/figure-latex/figura-poblacion1-1} 
+{\centering \includegraphics{estadisticas_files/figure-latex/figura-poblacion1-1} 
 
 }
 
@@ -438,7 +438,7 @@ Luego,
 
 \begin{figure}
 
-{\centering \includegraphics{est1+descriptiva_files/figure-latex/figura-muestra1-1} 
+{\centering \includegraphics{estadisticas_files/figure-latex/figura-muestra1-1} 
 
 }
 
@@ -449,7 +449,7 @@ Luego,
 
 \begin{figure}
 
-{\centering \includegraphics{est1+descriptiva_files/figure-latex/figura-muestra2-1} 
+{\centering \includegraphics{estadisticas_files/figure-latex/figura-muestra2-1} 
 
 }
 
@@ -941,7 +941,7 @@ Para generar un histograma en R a partir de un conjunto de datos, se utiliza el 
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics{est1+descriptiva_files/figure-latex/unnamed-chunk-21-1} \end{center}
+\begin{center}\includegraphics{estadisticas_files/figure-latex/unnamed-chunk-21-1} \end{center}
 
 Para interpretar un histograma, basta con indicar los siguientes aspectos:
 
@@ -1058,7 +1058,7 @@ Para generar un gráfico de caja en R a partir de un conjunto de datos, se utili
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics{est1+descriptiva_files/figure-latex/unnamed-chunk-23-1} \end{center}
+\begin{center}\includegraphics{estadisticas_files/figure-latex/unnamed-chunk-23-1} \end{center}
 
 Para interpretar un gráfico de caja es recomendable utilizar la opción 2 mostrada anteriormente, ya que, se debe mencionar uno de los puntos relevantes del gráfico. En el ejemplo recién dado, se observa que, el primer, segundo y tercer cuartil están en 1.135, 1.233 y 1.335 respectivamente, mientras que el valor mínimo y máximo están en 0.96 y 1.559 respectivamente. Adicionalmente, se puede mencionar que los datos superiores en comparación a los inferiores, se encuentran más alejados de la mediana.
 
@@ -1108,7 +1108,7 @@ Para generar un gráfico de violín en R a partir de un conjunto de datos, se ut
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics{est1+descriptiva_files/figure-latex/unnamed-chunk-24-1} \end{center}
+\begin{center}\includegraphics{estadisticas_files/figure-latex/unnamed-chunk-24-1} \end{center}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -1126,7 +1126,7 @@ Para generar un gráfico de violín en R a partir de un conjunto de datos, se ut
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics{est1+descriptiva_files/figure-latex/unnamed-chunk-25-1} \end{center}
+\begin{center}\includegraphics{estadisticas_files/figure-latex/unnamed-chunk-25-1} \end{center}
 
 Para interpretar un gráfico de violín con caja y promedio se deben mencionar tres aspectos relevantes:
 
@@ -1183,7 +1183,7 @@ El siguiente código, crea una nueva columna en la base de datos que identifica 
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics{est1+descriptiva_files/figure-latex/unnamed-chunk-26-1} \end{center}
+\begin{center}\includegraphics{estadisticas_files/figure-latex/unnamed-chunk-26-1} \end{center}
 
 Para interpretar este tipo de gráficos, se debe realizar un interpretación uno a uno, siguiendo la recomendación antes dada. También, es posible comprar los gráficos a través de la media y coeficiente de variabilidad. Para este ejemplo, queda como trabajo del estudiante realizar esta comparación.
 \end{example}
@@ -1236,7 +1236,7 @@ Para generar un gráfico de barras en R a partir de un conjunto de datos, se uti
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics{est1+descriptiva_files/figure-latex/unnamed-chunk-27-1} \end{center}
+\begin{center}\includegraphics{estadisticas_files/figure-latex/unnamed-chunk-27-1} \end{center}
 
 La interpretación de este tipo de gráfico (gráfico de barras no apiladas) es bastante intuitiva, ya que consiste en mencionar cuál categoría tiene un mayor frecuencia. En caso de graficar una variable con más de 2 categorías, se debe mencionar a que altura del eje vertical se encuentra la altura de cada una de las barras. Para obtener mayor detalles respecto a las frecuencias por categoría, suele apoyarse con un tabla de frecuencias absolutas o relativas porcentuales.
 
@@ -1286,7 +1286,7 @@ Para generar un gráfico de dispersión en R a partir de un conjunto de datos, s
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics{est1+descriptiva_files/figure-latex/unnamed-chunk-28-1} \end{center}
+\begin{center}\includegraphics{estadisticas_files/figure-latex/unnamed-chunk-28-1} \end{center}
 
 Tal como se menciona al inicio, la interpretación de este tipo de gráficos radica en describir la tendencia de los puntos. En el ejemplo anterior, el gráfico muestra una tendencia al alza, es decir, que cuando la tasa de apertura del EUR/USD aumenta, entonces, la tasa de cierre tiende a aumentar.
 
@@ -1322,7 +1322,7 @@ En los siguiente gráficos se toma como ejemplo la base de datos \hyperref[TasaE
 \end{Highlighting}
 \end{Shaded}
 
-  \begin{center}\includegraphics{est1+descriptiva_files/figure-latex/unnamed-chunk-29-1} \end{center}
+  \begin{center}\includegraphics{estadisticas_files/figure-latex/unnamed-chunk-29-1} \end{center}
 \item
   Añadir al gráfico un formato de líneas entre los puntos. Interprete.
 
@@ -1336,7 +1336,7 @@ En los siguiente gráficos se toma como ejemplo la base de datos \hyperref[TasaE
 \end{Highlighting}
 \end{Shaded}
 
-  \begin{center}\includegraphics{est1+descriptiva_files/figure-latex/unnamed-chunk-30-1} \end{center}
+  \begin{center}\includegraphics{estadisticas_files/figure-latex/unnamed-chunk-30-1} \end{center}
 
   Hasta el 2008 la tasa promedio de apertura estuvo en alza, posteriormente, la tasa decayó a un valor inferior a 1.1.
 \item
@@ -1367,7 +1367,7 @@ En los siguiente gráficos se toma como ejemplo la base de datos \hyperref[TasaE
 \end{Highlighting}
 \end{Shaded}
 
-  \begin{center}\includegraphics{est1+descriptiva_files/figure-latex/unnamed-chunk-31-1} \end{center}
+  \begin{center}\includegraphics{estadisticas_files/figure-latex/unnamed-chunk-31-1} \end{center}
 
   Durante los 3 años consecutivos, se observa que únicamente en el 2020 la tendencia de la tasa de apertura es al alza, mientra que para los otros dos años hubo un decaimiento en el valor de esta.
 \item
@@ -1398,7 +1398,7 @@ En los siguiente gráficos se toma como ejemplo la base de datos \hyperref[TasaE
 \end{Highlighting}
 \end{Shaded}
 
-  \begin{center}\includegraphics{est1+descriptiva_files/figure-latex/unnamed-chunk-32-1} \end{center}
+  \begin{center}\includegraphics{estadisticas_files/figure-latex/unnamed-chunk-32-1} \end{center}
 
   Al observar la evolución histórica de la tasa de apertura diferenciada por año, se aprecia que el periodo 2008 - 2010 es aquel con predominancia de valores más altos. Por otro lado, desde el 2016, se registraron pro primera vez valores menores a 1.1. En años posteriores, no ha observado que la tasa supere los 1.3 puntos.
 \end{enumerate}
@@ -1878,7 +1878,7 @@ La figura \ref{fig:plotmasa} está reproducida mediante R, con la finalidad de v
 
 \begin{figure}
 
-{\centering \includegraphics{est1+descriptiva_files/figure-latex/plotmasa-1} 
+{\centering \includegraphics{estadisticas_files/figure-latex/plotmasa-1} 
 
 }
 
@@ -2072,7 +2072,7 @@ La siguiente figura muestra la gráfica de \(F(y)\).
 
 \begin{figure}
 
-{\centering \includegraphics{est1+descriptiva_files/figure-latex/unnamed-chunk-37-1} 
+{\centering \includegraphics{estadisticas_files/figure-latex/unnamed-chunk-37-1} 
 
 }
 
@@ -2221,7 +2221,7 @@ La figura \ref{fig:simUD}, muestra una simulación de la función de masa de pro
 
 \begin{figure}
 
-{\centering \includegraphics{est1+descriptiva_files/figure-latex/simUD-1} 
+{\centering \includegraphics{estadisticas_files/figure-latex/simUD-1} 
 
 }
 
@@ -2243,7 +2243,7 @@ La figura \ref{fig:simBer}, muestra una simulación de la función de masa de pr
 
 \begin{figure}
 
-{\centering \includegraphics{est1+descriptiva_files/figure-latex/simBer-1} 
+{\centering \includegraphics{estadisticas_files/figure-latex/simBer-1} 
 
 }
 
@@ -2344,7 +2344,7 @@ La figura \ref{fig:simBinomial}, muestra una simulación de la función de masa 
 
 \begin{figure}
 
-{\centering \includegraphics{est1+descriptiva_files/figure-latex/simBinomial-1} 
+{\centering \includegraphics{estadisticas_files/figure-latex/simBinomial-1} 
 
 }
 
@@ -2634,7 +2634,7 @@ La figura \ref{fig:simPois}, muestra una simulación de la función de masa de p
 
 \begin{figure}
 
-{\centering \includegraphics{est1+descriptiva_files/figure-latex/simPois-1} 
+{\centering \includegraphics{estadisticas_files/figure-latex/simPois-1} 
 
 }
 
@@ -2966,7 +2966,7 @@ En R, la gráfica de está función de densidad puede replicarse de la siguiente
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics{est1+descriptiva_files/figure-latex/unnamed-chunk-55-1} \end{center}
+\begin{center}\includegraphics{estadisticas_files/figure-latex/unnamed-chunk-55-1} \end{center}
 
 Así, la probabilidad de que el intervalo de tiempo sea cuando mucho de 5 segundos es
 
@@ -3155,7 +3155,7 @@ Continuando con el ejemplo \ref{exm:densidad1}. Las gráficas de \(f(x)\) y \(F(
 \end{Highlighting}
 \end{Shaded}
 
-\begin{center}\includegraphics{est1+descriptiva_files/figure-latex/unnamed-chunk-57-1} \end{center}
+\begin{center}\includegraphics{estadisticas_files/figure-latex/unnamed-chunk-57-1} \end{center}
 
 La probabilidad de que la carga esté entre 1 y 1.5 es
 
@@ -3301,7 +3301,7 @@ La figura \ref{fig:simuniformecontinua}, muestra una simulación de la función 
 
 \begin{figure}
 
-{\centering \includegraphics{est1+descriptiva_files/figure-latex/simuniformecontinua-1} 
+{\centering \includegraphics{estadisticas_files/figure-latex/simuniformecontinua-1} 
 
 }
 
@@ -3332,7 +3332,7 @@ La figura \ref{fig:simexponencial}, muestra una simulación de la función de de
 
 \begin{figure}
 
-{\centering \includegraphics{est1+descriptiva_files/figure-latex/simexponencial-1} 
+{\centering \includegraphics{estadisticas_files/figure-latex/simexponencial-1} 
 
 }
 
@@ -3409,7 +3409,7 @@ La figura \ref{fig:simnormal}, muestra una simulación de la función de densida
 
 \begin{figure}
 
-{\centering \includegraphics{est1+descriptiva_files/figure-latex/simnormal-1} 
+{\centering \includegraphics{estadisticas_files/figure-latex/simnormal-1} 
 
 }
 
@@ -3531,7 +3531,7 @@ La figura \ref{fig:simstudent}, muestra una simulación de la función de densid
 
 \begin{figure}
 
-{\centering \includegraphics{est1+descriptiva_files/figure-latex/simstudent-1} 
+{\centering \includegraphics{estadisticas_files/figure-latex/simstudent-1} 
 
 }
 
@@ -3542,7 +3542,7 @@ La figura \ref{fig:simchi}, muestra una simulación de la función de densidad d
 
 \begin{figure}
 
-{\centering \includegraphics{est1+descriptiva_files/figure-latex/simchi-1} 
+{\centering \includegraphics{estadisticas_files/figure-latex/simchi-1} 
 
 }
 
@@ -3885,11 +3885,11 @@ Lanzamientos & Caras & Sellos & Diferencia & Proporción\\
 
 Fijémonos que ocurre si graficamos las diferencias entre caras y sellos según la cantidad de veces se lanza la moneda.
 
-\begin{center}\includegraphics{est1+descriptiva_files/figure-latex/unnamed-chunk-66-1} \end{center}
+\begin{center}\includegraphics{estadisticas_files/figure-latex/unnamed-chunk-66-1} \end{center}
 
 Por lo que se puede observar, la diferencia (amplitud vertical, variabilidad) aumenta a medida que también lo hace la cantidad de lanzamientos. Este resultado puede parecer extraño, ya que cuantas más veces se lanza la moneda, el números de caras y el de sellos debería tender a acercarse puesto que la cara y el sello son igual de probables. Sin embargo, para apreciar lo que realmente ocurre, se debe graficar las proporciones y no las diferencias.
 
-\begin{center}\includegraphics{est1+descriptiva_files/figure-latex/unnamed-chunk-67-1} \end{center}
+\begin{center}\includegraphics{estadisticas_files/figure-latex/unnamed-chunk-67-1} \end{center}
 
 Como se observa, la proporción de caras y sellos tiene a ser 1 cuántas más veces se arroje la moneda \textbf{(la diferencia también tenderá a cero, pero se necesitan muchos más intentos)}.
 
@@ -3956,7 +3956,7 @@ En el gráfico \ref{fig:ejestand} se observa una ejemplificación de la estandar
 
 \begin{figure}
 
-{\centering \includegraphics{est1+descriptiva_files/figure-latex/ejestand-1} 
+{\centering \includegraphics{estadisticas_files/figure-latex/ejestand-1} 
 
 }
 
